@@ -1,7 +1,6 @@
 // Add your functions and code here
 var kittens = ["Milo","Otis","Garfield"]
-console.log("first")
-console.log(kittens)
+
 function destructivelyAppendKitten(name) {
   kittens = kittens.push(name)
   console.log("second")
