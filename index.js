@@ -2,13 +2,13 @@
 var kittens = ["Milo","Otis","Garfield"]
 
 function destructivelyAppendKitten(name) {
-
   var temp = [name]
   kittens = kittens.concat(temp)
   return kittens
 }
 function destructivelyPrependKitten(name) {
-  kittens = kittens.unshift(name)
+  var temp = [name]
+  kittens = temp.concat(kittens)
   return kittens
 }
 function destructivelyRemoveLastKitten() {
