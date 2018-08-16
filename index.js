@@ -1,6 +1,6 @@
 // Add your functions and code here
 kittens = ["Milo","Otis","Garfield"]
-
+console.log(kittens)
 function destructivelyAppendKitten(name) {
   kittens = kittens.push(name)
   console.log(kittens)
