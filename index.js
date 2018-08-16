@@ -3,8 +3,8 @@ var kittens = ["Milo","Otis","Garfield"]
 
 function destructivelyAppendKitten(name) {
   kittens = ["Milo","Otis","Garfield"]
-  name = [name]
-  kittens.concat(name)
+  temp = [name]
+  kittens.concat(temp)
   console.log("second")
   console.log(kittens)
   return kittens
